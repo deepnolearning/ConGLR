@@ -1,7 +1,3 @@
-The **anonymous** source code of the paper:
-
-# Incorporating Context Graph with Logical Reasoning for Inductive Relation Prediction
-
 Please install relevant python packages before running the code. Our settings are as follows:
 
 ```
@@ -49,7 +45,7 @@ def test():
 
 When conducting training or testing during the experiment, you only need to convert to the corresponding functions of "train()" or "test()". The "num_neg_samples_per_link" in function "test()" means the number of negative samples during testing, which has two values (1 for the classification task and 50 for the ranking task) in our experiments. If you want to attempt other hyper-parameters, you can add the argument descriptions in function "train()" or change the corresponding values in "train.py".
 
-If the code is useful for you, please cite the following paper:
+**If the code is useful for you, please cite the following paper:**
 ```
 @inproceedings{DBLP:conf/sigir/LinLXPZZZ22,
   author    = {Qika Lin and
